@@ -5,7 +5,7 @@
           "origen_y": 11,
           "destino_x": 60,
           "destino_y": 61,
-          "velocidad": 5,
+          "velocidad": 44,
           "red": 5,
           "green": 5,
           "blue": 5
@@ -27,7 +27,7 @@
           "origen_y": 99,
           "destino_x": 55,
           "destino_y": 55,
-          "velocidad": 5,
+          "velocidad": 54,
           "red": 5,
           "green": 5,
           "blue": 5
@@ -38,7 +38,7 @@
           "origen_y": 4,
           "destino_x": 4,
           "destino_y": 2,
-          "velocidad": 5,
+          "velocidad": 10,
           "red": 5,
           "green": 5,
           "blue": 5
@@ -49,7 +49,7 @@
           "origen_y": 2,
           "destino_x": 88,
           "destino_y": 88,
-          "velocidad": 5,
+          "velocidad": 100,
           "red": 5,
           "green": 5,
           "blue": 5
@@ -60,7 +60,7 @@
           "origen_y": 88,
           "destino_x": 5,
           "destino_y": 5,
-          "velocidad": 5,
+          "velocidad": 8,
           "red": 5,
           "green": 5,
           "blue": 5
@@ -71,7 +71,7 @@
           "origen_y": 5,
           "destino_x": 66,
           "destino_y": 66,
-          "velocidad": 5,
+          "velocidad": 2,
           "red": 5,
           "green": 5,
           "blue": 5
@@ -82,7 +82,7 @@
           "origen_y": 77,
           "destino_x": 22,
           "destino_y": 22,
-          "velocidad": 5,
+          "velocidad": 96,
           "red": 5,
           "green": 5,
           "blue": 5
@@ -93,7 +93,7 @@
           "origen_y": 66,
           "destino_x": 88,
           "destino_y": 88,
-          "velocidad": 5,
+          "velocidad": 98,
           "red": 5,
           "green": 5,
           "blue": 5
@@ -104,7 +104,7 @@
           "origen_y": 55,
           "destino_x": 0,
           "destino_y": 52,
-          "velocidad": 5,
+          "velocidad": 0,
           "red": 5,
           "green": 5,
           "blue": 5
@@ -115,7 +115,7 @@
           "origen_y": 0,
           "destino_x": 99,
           "destino_y": 99,
-          "velocidad": 5,
+          "velocidad": 69,
           "red": 5,
           "green": 5,
           "blue": 5

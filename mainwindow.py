@@ -18,6 +18,9 @@ class MainWindow(QMainWindow):
         self.ui.Agregar_final_pushButton.clicked.connect(self.click_agregar)
         self.ui.Agregar_inicio_pushButton.clicked.connect(self.click_agregar_inicio)
         self.ui.Mostrar_pushButton.clicked.connect(self.click_mostrar)
+        self.ui.Ordenar_distancia_pushButton.clicked.connect(self.ordenar_d)
+        self.ui.ordenar_id_pushButton.clicked.connect(self.ordenar_id)
+        self.ui.pOrdenar_velocidad_pushButton.clicked.connect(self.ordenar_v)
 
         self.ui.actionAbrir.triggered.connect(self.action_abrir_archivo)
         self.ui.actionGuardar.triggered.connect(self.action_guardar_archivo)
@@ -30,6 +33,15 @@ class MainWindow(QMainWindow):
 
         self.scene = QGraphicsScene()
         self.ui.graphicsView.setScene(self.scene)
+    
+    def ordenar_d(self):
+        self.particulas.sort_list(2)
+   
+    def ordenar_id(self):
+        self.particulas.sort_list(1)
+
+    def ordenar_v(self):
+        self.particulas.sort_list(3)
     def wheelEvent(self, event):
         if event.delta() < 0:
             self.ui.graphicsView.scale(1.2,1.2)

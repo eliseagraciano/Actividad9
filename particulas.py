@@ -51,7 +51,19 @@ class Particulas:
             return 1
         except:
             return 0
-         
+    
+    def sort_list(self,opc=1):
+        if opc==1:
+            #self.__particulas.sort()
+            self.__particulas.sort(key= lambda particula: particula.id)
+            print("\nid")
+        elif opc==2:
+            self.__particulas.sort(key= lambda particula: particula.distancia,reverse=True)
+            print("\nd")
+        if opc==3:
+            self.__particulas.sort(key= lambda particula: particula.velocidad)
+            print("\nv")
+    
             #archivo.write(str(self))
 #p= Particula(1,2,1,3,4,5,6,7,8,9)
 #p1= Particula(20,69,59,41,55,66,99,80,52,63)
